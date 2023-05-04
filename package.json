@@ -1,6 +1,6 @@
 {
   "name": "colining-nightmare",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "license": "MIT",
   "main": "lib/nightmare.js",
   "scripts": {
@@ -18,6 +18,7 @@
   ],
   "description": "A high-level browser automation library.",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "debug": "^2.2.0",
     "deep-defaults": "^1.0.3",
     "defaults": "^1.0.2",
