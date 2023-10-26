@@ -173,6 +173,24 @@ describe('Nightmare', function() {
       })
   })
 
+  // it('colin test', function(done) {
+  //   var nightmare = Nightmare({
+  //     show: true
+  //   })
+  //   nightmare
+  //     .goto(
+  //       'https://www.baidu.com/s?wd=123&rsv_spt=1&rsv_iqid=0xa10ce60e00000e81&issp=1&f=8&rsv_bp=1&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_dl=tb&rsv_sug3=4&rsv_sug2=0&rsv_btype=i&inputT=426&rsv_sug4=1304'
+  //     )
+  //     .click('div.c-container > div:nth-child(1) > h3 > a')
+  //     .wait(1000)
+  //     .evaluate(() => document.title)
+  //     .then(result => {
+  //       console.log(result)
+  //       done()
+  //     })
+  //     .catch(e => console.log('e', e))
+  // })
+
   it('should kill electron process when halted', function() {
     var nightmare = Nightmare()
 
